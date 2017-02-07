@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapsi.com/css?family=Open+SansArvo|Farsan|Satisfy|Shadows+Into+Light|Yanone+Kaffeesatz|Architects+Daughter);
+#home{
+	border: 25%;
+	padding:20%;
+}
+#aboutme{
+	border: 25%;
+	padding:20%;
+}
+.jumbotron{
+	width: 50%;
+}
+body {
+   /*  font-family: 'Open Sans' ,serif;*/
+  }
+ .text-center{
+ 	text-align:center;
+ 	font-family: 'Open Sans' ,serif;
+ }
+.bg-1{
+	background-color:#358cce;
+	font-family: 'Satisfy', cursive;
+	font-size: 150%;
+}
+}
+.geff{
+	padding-top: 100px;
+	font-size: 130%;
+	 color: #000000;
+}
+.bg-2{
+	background-color: #f5f6f7;
+}
+#parbg{
+	background-color: green;
+}
+.padding{
+	padding: 10%;
+	font-size: 150%;
+}
+.container{
+	font-size: 150%;
+}
+.bg-3{
+	background-color:#a0b28e; /* blue */
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+#mywork{
+	border: 15%;
+	padding:10%;
+}
+.bg-4{
+	background-color:#fff;
+}
+#contactme{
+	border: 15%;
+	padding:10%;
+	background-color: #82a43a;
+	font-family: 'Satisfy', cursive;
+}
+.parfont{
+	font-family: 'Satisfy', cursive;
+}
+#footer{
+	border: 15%;
+	padding:10%;
+}
+.fonth3{
+	font-family: 'Satisfy', cursive;
+	font-size: 250%;
+}
+.navbar{
+	font-family: 'Satisfy', cursive;
+}
+.hrcol{
+	color: red
+}
