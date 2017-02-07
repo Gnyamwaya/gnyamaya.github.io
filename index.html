@@ -1,0 +1,151 @@
+<DOCTYPE html>
+<html lang="en">
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Geoffrey Bosire's Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.css">
+	</head>
+	<body>
+		<!-- NAVBAR SECTION -->
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span> 
+		      </button>
+		      <a class="navbar-brand brand-name" href="#">GEOFFREY</a>
+		    </div>
+		    <div class="collapse navbar-collapse" id="myNavbar">
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="portfolio.html"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+		        <li><a  href="#aboutme" ><span class="glyphicon glyphicon-user"></span> About Me </a></li> 
+		        <li><a href="#mywork"> My Work </a></li> 
+		        <li><a href="#contactme">Contact</a></li> 
+		      </ul>
+		  	</div>
+		  </div>
+		</nav>
+		<!-- END OF NAVBAR -->
+		<!-- HOME SECTION -->
+		<section id="home" class="bg-1 text-center">
+				<h1> HELLO!</h1>
+				<h3 class="fonth3"> My name is Geoffrey Bosire, a Passionate Web Designer and Programmer</h3>
+		</section>
+		<div>
+		<!-- END OF HOME SECTION -->
+		<!-- ABOUT ME SECTION -->
+		<section id="aboutme" class="bg-2">
+			<div class="row">
+				<div class="col-lg-6">
+					<img class="img-circle img-responsive" src="bootstrap-3.3.7-dist/Resourses/Images/Indoors/Geff_4.jpg">
+				</div>
+				<div class="col-lg-6 geff">
+					<h3 class="fonth3"><b>WHO IS GEOFFREY BOSIRE</b></h3>
+					<hr class="hrcol">
+					<p class="parfont"> I am a young boy of 18 years old. I was born in 1998. Everything about Computer and its accesories, makes go hem. My interest in Computer started when I was a young Kid of about 7 years. I could go and try to open the CPU of our Desktop at home, though all my efforts bore no fruits. When I came to learn of computer in Primary, I got intersted in Gaming and I got an aspiration to create my Own game and Develop Websites and Softwares. </p>
+				</div>
+			</div>
+		</section>
+		<!-- END OF ABOUTME -->
+		<!-- MY WORK SECTION -->
+		<section id="mywork" class="bg-3">
+			<div class="container">
+				<h3 class="text-center fonth3">WHAT I DO</h3>
+				<hr class="hrcol">
+				<div class="row">
+					<div class="col-lg-6">
+						<h3 class="text-center padding fonth2">WHAT I AM GOOD AT:</h3>
+					</div>
+					<div class="col-lg-6">
+						<div class="progress">
+						  <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar"
+						  aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+						    40% (Singing)
+						  </div>
+						</div>
+
+						<div class="progress">
+						  <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar"
+						  aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+						    50% (Swimming)
+						  </div>
+						</div>
+
+						<div class="progress">
+						  <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar"
+						  aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+						    60% (Programming)
+						  </div>
+						</div>
+
+						<div class="progress">
+						  <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar"
+						  aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+						    70% (Web Design)
+						  </div>
+						</div>
+
+						<div class="progress">
+						  <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar"
+						  aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+						    90% (Football)
+						  </div>
+						</div>
+						<hr class="hrcol">
+					</div>
+				</div>
+			</section>
+			<!-- END OF WORK SECTION -->
+			<!-- MY CONTACT SECTION -->
+			<section id="contactme">
+			<div class="container-fluid">
+					<h3 class="text-center fonth3"> GET IN TOUCH </h3>
+					<hr class="hr">
+					<p> I would love to hear from you, feel free to do so </p>
+					<hr>
+					<form>
+					  <label>
+					  	First name
+					  	<span class="form-required" title="This field is required.">*</span>
+					  </label><br>
+					  <input type="text" name="firstname" class="form-control"placeholder="First Name" required="required"><br>
+					  <label>
+					  	Last name
+					  	<span class="form-required" title="This field is required.">*</span>
+					  </label><br>
+					  <input type="text" name="lastname" class="form-control"placeholder="Last Name"><br>
+					  <label>
+					  	Email
+					  	<span class="form-required" title="This field is required.">*</span>
+					  </label><br>
+					  <span class="glyphicon glyphicon-envelope"></span>
+					  <input type="email" email="text" class="form-control"placeholder="Email" required="required"><br>
+					  <div class="form-group">
+					  	<label>
+					  		Comment
+					  		<span class="form-required" title="This field is required.">*</span>
+					  	</label>
+					  	<textarea class="form-control" rows="5" id="comment"></textarea>
+					  </div>
+					  <button type="button" class="btn btn-success"><span class="glyphicon glyphicon-ok"></span>Send Message</button>
+					</form>
+			</div>
+		</section>
+			<!-- ENF OF MY CONTACT SECTOIN -->
+			<!-- FOOTER SECTION -->
+			
+			 <footer class="container bg-1 text-center" id="footer">
+		        <p>MADE AND COMPILED BY GEOFFREY BOSIRE NYAMWAYA</a></p>
+		        <p> Copyrights &copy; 2017</p> 
+		      </footer>
+	
+	
+		<script type="text/javascript" src="bootstrap-3.3.7-dist/jquery/jquery.js"></script>
+		<script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+	</body>
+	</html>
